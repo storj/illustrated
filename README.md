@@ -18,4 +18,4 @@ When one diagram is saved, both the export (svg) both the embedded source are up
 
 PR can be created where the old version and new version of the SVG can be seen, just click to the *rich diff* option:
 
-!(Rich diff)[https://user-images.githubusercontent.com/170549/137105249-4fc31311-dbe0-49a9-82d9-37dace8ebcfa.png]
+![Rich diff](https://user-images.githubusercontent.com/170549/137105249-4fc31311-dbe0-49a9-82d9-37dace8ebcfa.png)
