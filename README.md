@@ -20,6 +20,13 @@ PR can be created where the old version and new version of the SVG can be seen, 
 
 ![Rich diff](https://user-images.githubusercontent.com/170549/137105249-4fc31311-dbe0-49a9-82d9-37dace8ebcfa.png)
 
+To regenerated the preview above, the following can be used (after existing lines are removd):
+
+```
+docs/*.svg | sort | xargs -n1 -IFILE printf "\![FILE](FILE)\n\n\`\`\`\n\n\n\n\`\`\`\n\n"
+```
+
+
 ## Diagrams
 
 ![docs/0title.svg](docs/0title.svg)
@@ -78,6 +85,14 @@ PR can be created where the old version and new version of the SVG can be seen, 
 
 ```
 
+![docs/macaroon.svg](docs/macaroon.svg)
+
+```
+
+
+
+```
+
 ![docs/read1.svg](docs/read1.svg)
 
 ```
@@ -87,6 +102,22 @@ PR can be created where the old version and new version of the SVG can be seen, 
 ```
 
 ![docs/read2.svg](docs/read2.svg)
+
+```
+
+
+
+```
+
+![docs/reputation.svg](docs/reputation.svg)
+
+```
+
+
+
+```
+
+![docs/satellite-api.svg](docs/satellite-api.svg)
 
 ```
 
