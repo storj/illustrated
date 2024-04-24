@@ -184,9 +184,11 @@ PR can be created where the old version and new version of the SVG can be seen, 
 
 ![Rich diff](https://user-images.githubusercontent.com/170549/137105249-4fc31311-dbe0-49a9-82d9-37dace8ebcfa.png)
 
-To regenerate the previews, the following can be used (after existing lines are removd):
+To regenerate the previews, the following can be used (after existing lines are removed):
 
 ```
-docs/*.svg | sort | xargs -n1 -IFILE printf "\![FILE](FILE)\n\n\`\`\`\n\n\n\n\`\`\`\n\n"
+ls -1 docs/*.svg | sort | xargs -n1 -IFILE printf "![FILE](FILE)\n\n```\n\n\n\n```\n\n"         
 ```
+
+(tested in fish)
 
