@@ -174,8 +174,6 @@ If you need something to be explained, please create an issue.
 
 ![docs/versioncontrol.svg](docs/versioncontrol.svg)
 
-```
-
 ## How to contribute
 
 Original source of the diagrams can be edited with online or offline version of [diagrams.net](https://app.diagrams.net)
