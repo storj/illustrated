@@ -10,23 +10,6 @@ If you see any problems, please create an issue.
 
 If you need something to be explained, please create an issue.
 
-## How to contribute
-
-Original source of the diagrams can be edited with online or offline version of [diagrams.net](https://app.diagrams.net)
-
-When one diagram is saved, both the export (svg) both the embedded source are updated. 
-
-PR can be created where the old version and new version of the SVG can be seen, just click to the *rich diff* option:
-
-![Rich diff](https://user-images.githubusercontent.com/170549/137105249-4fc31311-dbe0-49a9-82d9-37dace8ebcfa.png)
-
-To regenerated the preview above, the following can be used (after existing lines are removd):
-
-```
-docs/*.svg | sort | xargs -n1 -IFILE printf "\![FILE](FILE)\n\n\`\`\`\n\n\n\n\`\`\`\n\n"
-```
-
-
 ## Diagrams
 
 ![docs/0title.svg](docs/0title.svg)
@@ -46,6 +29,14 @@ docs/*.svg | sort | xargs -n1 -IFILE printf "\![FILE](FILE)\n\n\`\`\`\n\n\n\n\`\
 ```
 
 ![docs/core.svg](docs/core.svg)
+
+```
+
+
+
+```
+
+![docs/delete.svg](docs/delete.svg)
 
 ```
 
@@ -85,7 +76,39 @@ docs/*.svg | sort | xargs -n1 -IFILE printf "\![FILE](FILE)\n\n\`\`\`\n\n\n\n\`\
 
 ```
 
+![docs/identity.svg](docs/identity.svg)
+
+```
+
+
+
+```
+
 ![docs/macaroon.svg](docs/macaroon.svg)
+
+```
+
+
+
+```
+
+![docs/overview.svg](docs/overview.svg)
+
+```
+
+
+
+```
+
+![docs/pieces.svg](docs/pieces.svg)
+
+```
+
+
+
+```
+
+![docs/ranged-loop.svg](docs/ranged-loop.svg)
 
 ```
 
@@ -133,11 +156,39 @@ docs/*.svg | sort | xargs -n1 -IFILE printf "\![FILE](FILE)\n\n\`\`\`\n\n\n\n\`\
 
 ```
 
-![docs/versioncontrol.svg](docs/versioncontrol.svg)
+![docs/signatures.svg](docs/signatures.svg)
 
 ```
 
 
 
+```
+
+![docs/storagenode-accounting.svg](docs/storagenode-accounting.svg)
+
+```
+
+
+
+```
+
+![docs/versioncontrol.svg](docs/versioncontrol.svg)
+
+```
+
+## How to contribute
+
+Original source of the diagrams can be edited with online or offline version of [diagrams.net](https://app.diagrams.net)
+
+When one diagram is saved, both the export (svg) both the embedded source are updated. 
+
+PR can be created where the old version and new version of the SVG can be seen, just click to the *rich diff* option:
+
+![Rich diff](https://user-images.githubusercontent.com/170549/137105249-4fc31311-dbe0-49a9-82d9-37dace8ebcfa.png)
+
+To regenerate the previews, the following can be used (after existing lines are removd):
+
+```
+docs/*.svg | sort | xargs -n1 -IFILE printf "\![FILE](FILE)\n\n\`\`\`\n\n\n\n\`\`\`\n\n"
 ```
 
