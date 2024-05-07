@@ -17,10 +17,9 @@ If you need something to be explained, please create an issue.
 ```
 
 
-
 ```
 
-![docs/authservice.svg](docs/authservice.svg)
+![docs/overview.svg](docs/overview.svg)
 
 ```
 
@@ -29,6 +28,14 @@ If you need something to be explained, please create an issue.
 ```
 
 ![docs/core.svg](docs/core.svg)
+
+```
+
+
+
+```
+
+![docs/authservice.svg](docs/authservice.svg)
 
 ```
 
@@ -85,14 +92,6 @@ If you need something to be explained, please create an issue.
 ```
 
 ![docs/macaroon.svg](docs/macaroon.svg)
-
-```
-
-
-
-```
-
-![docs/overview.svg](docs/overview.svg)
 
 ```
 
